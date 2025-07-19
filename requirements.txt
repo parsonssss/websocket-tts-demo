@@ -1,0 +1,5 @@
+websockets
+requests
+pyaudio
+openai
+python-dotenv 
