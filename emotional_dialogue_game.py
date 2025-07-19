@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 # --- Configuration ---
 load_dotenv()
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:3000/api")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://www.wavecraft.ai/api")
 AUTH_TOKEN = os.getenv("AUTH_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 IFLYTEK_APP_ID = os.getenv("IFLYTEK_APP_ID")
